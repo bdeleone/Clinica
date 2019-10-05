@@ -10,52 +10,52 @@ package regFarmacos;
  * @author umg
  */
 public class farmacoc {
-    public String nombre;
-    public String descripcion;
-    public String valorcompra;
-    public String valorventa;
-    public String proveedor;
+    public String nombrefarm;
+    public String descripcionfarm;
+    public String valorcomprafarm;
+    public String valorventafarm;
+    public String proveedorfarm;
 
-    public String getNombre() {
-        return nombre;
+    public String getNombrefarm() {
+        return nombrefarm;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombrefarm(String nombrefarm) {
+        this.nombrefarm = nombrefarm;
     }
 
-    public String getDescripcion() {
-        return descripcion;
+    public String getDescripcionfarm() {
+        return descripcionfarm;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
+    public void setDescripcionfarm(String descripcionfarm) {
+        this.descripcionfarm = descripcionfarm;
     }
 
-    public String getValorcompra() {
-        return valorcompra;
+    public String getValorcomprafarm() {
+        return valorcomprafarm;
     }
 
-    public void setValorcompra(String valorcompra) {
-        this.valorcompra = valorcompra;
+    public void setValorcomprafarm(String valorcomprafarm) {
+        this.valorcomprafarm = valorcomprafarm;
     }
 
-    public String getValorventa() {
-        return valorventa;
+    public String getValorventafarm() {
+        return valorventafarm;
     }
 
-    public void setValorventa(String valorventa) {
-        this.valorventa = valorventa;
+    public void setValorventafarm(String valorventafarm) {
+        this.valorventafarm = valorventafarm;
     }
 
-    public String getProveedor() {
-        return proveedor;
+    public String getProveedorfarm() {
+        return proveedorfarm;
     }
 
-    public void setProveedor(String proveedor) {
-        this.proveedor = proveedor;
+    public void setProveedorfarm(String proveedorfarm) {
+        this.proveedorfarm = proveedorfarm;
     }
-    
+
     
     
 }
