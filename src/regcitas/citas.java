@@ -10,5 +10,6 @@ package regcitas;
  * @author umg
  */
 public class citas {
+    private int numero;
     
 }
