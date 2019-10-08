@@ -24,7 +24,6 @@ public class pantallafarmaco extends javax.swing.JDialog {
     }
      public void guardar(){
         farmacoc h = new farmacoc(); 
-         nombrefar.getText(h.nombrefarm());
        
         }
 
@@ -71,6 +70,12 @@ public class pantallafarmaco extends javax.swing.JDialog {
         jLabel6.setText("Valor de compra");
 
         jLabel7.setText("Proveedores");
+
+        nombrefar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nombrefarActionPerformed(evt);
+            }
+        });
 
         btlimpiarfar.setText("Limpiar");
 
@@ -140,6 +145,10 @@ public class pantallafarmaco extends javax.swing.JDialog {
         guardar();
         
     }//GEN-LAST:event_btagregarfarActionPerformed
+
+    private void nombrefarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nombrefarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_nombrefarActionPerformed
 
     /**
      * @param args the command line arguments
