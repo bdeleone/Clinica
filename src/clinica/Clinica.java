@@ -5,6 +5,9 @@
  */
 package clinica;
 
+import regdoctor.Medico;
+
+
 /**
  *
  * @author umg

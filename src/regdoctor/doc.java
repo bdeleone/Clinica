@@ -13,7 +13,24 @@ public class doc {
     private String nombred;
     private String edadd;
     private String colegiadod;
-    private String especialidadd;
+    private String telefonod;
+
+    public String getTelefonod() {
+        return telefonod;
+    }
+
+    public void setTelefonod(String telefonod) {
+        this.telefonod = telefonod;
+    }
+    private String apellido;
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
 
     public String getNombred() {
         return nombred;
@@ -37,13 +54,5 @@ public class doc {
 
     public void setColegiadod(String colegiadod) {
         this.colegiadod = colegiadod;
-    }
-
-    public String getEspecialidadd() {
-        return especialidadd;
-    }
-
-    public void setEspecialidadd(String especialidadd) {
-        this.especialidadd = especialidadd;
     }
 }

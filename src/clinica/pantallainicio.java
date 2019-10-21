@@ -16,6 +16,7 @@ public class pantallainicio extends javax.swing.JFrame {
      */
     public pantallainicio() {
         initComponents();
+        
     }
 
     /**
